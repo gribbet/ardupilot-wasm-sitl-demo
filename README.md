@@ -4,6 +4,8 @@ Runs ArduPlane SITL in the browser with WebAssembly and communicates with it ove
 
 ## Run
 
+Download and install [Node.js](https://nodejs.org/en/download), then run:
+
 ```sh
 npm install
 npm run dev
