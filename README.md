@@ -5,6 +5,7 @@ Runs ArduPlane SITL in the browser with WebAssembly and communicates with it ove
 ## Run
 
 ```sh
+sudo apt install npm
 npm install
 npm run dev
 ```
