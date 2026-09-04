@@ -51,8 +51,6 @@ export const createSimulation = async () => {
     arguments: [
       "--model=plane",
       "--defaults=simulation.parm",
-      "--serial1=none",
-      "--serial2=none",
     ],
     preRun: [
       ({ FS }: { FS: EmscriptenFS }) => {
